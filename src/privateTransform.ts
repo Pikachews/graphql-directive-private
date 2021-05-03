@@ -1,8 +1,4 @@
-import { Transform } from 'graphql-tools'
-import {
-  visitSchema,
-  VisitSchemaKind,
-} from 'graphql-tools/dist/transforms/visitSchema'
+import { Transform, visitSchema, VisitSchemaKind } from 'graphql-tools'
 import { GraphQLNamedType, GraphQLSchema } from 'graphql'
 
 const namespace = 'graphql-directive-private'
