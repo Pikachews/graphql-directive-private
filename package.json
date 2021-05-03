@@ -1,5 +1,5 @@
 {
-  "name": "graphql-directive-private",
+  "name": "@pikachews/graphql-directive-private",
   "version": "1.0.0",
   "description": "Fields and Objects marked with @private will not be removed from the schema. They will not appear in introspection and they will not be queryable.",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "repository": "git@github.com:taylorgoolsby/graphql-directive-private.git",
+  "repository": "git@github.com:Pikachews/graphql-directive-private.git",
   "author": "Taylor Goolsby <taylorgoolsby@users.noreply.github.com>",
   "license": "GPL-3.0",
   "engines": {
